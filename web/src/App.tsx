@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Landing from './pages/Landing'
+import TeacherList from './pages/TeacherList';
 
 import './assets/styles/global.css'
 
 function App() {
   return (
-    <Landing />
+    <TeacherList />
   );
 }
 
