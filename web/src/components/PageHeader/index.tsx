@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.svg'
 
@@ -15,15 +16,15 @@ const PageHeader: React.FC<IPageHeaderProps> = (props) => {
   return (
     <header className="page-header">
       <div className="top-bar-container">
-        <a href="/">
+        <Link to="/">
           <img src={backIcon} alt="Voltar"/>
-        </a>
+        </Link>
         <img src={logoImg} alt="Proffy"/>
 
       </div>
 
       <div className="header-content">
-        <strong>{props.title}</strong>
+        <strong>{props.title}</strong>import Routes from './routes';
 
         {props.children}
       </div>
