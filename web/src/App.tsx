@@ -1,13 +1,8 @@
 import React from 'react';
 
-import TeacherList from './pages/TeacherList';
+import './assets/styles/global.css';
+import Routes from './routes';
 
-import './assets/styles/global.css'
-
-function App() {
-  return (
-    <TeacherList />
-  );
-}
+const App: React.FC = () => <Routes />;
 
 export default App;
