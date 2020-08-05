@@ -52,7 +52,8 @@
         "assert": "either",
         "depth": 25
       }
-    ]
+    ],
+    "react/jsx-props-no-spreading": "off",
 
   },
   "settings": {
