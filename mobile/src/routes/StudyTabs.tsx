@@ -40,8 +40,14 @@ const StudyTabs: React.FC = () => {
       <Screen
         options={{
           tabBarLabel: 'Proffys',
-          tabBarIcon: ({ color, size }) => {
-            return <Ionicons color={color} size={size} name="ios-easel" />;
+          tabBarIcon: ({ color, size, focused }) => {
+            return (
+              <Ionicons
+                color={focused ? '#8257e5' : color}
+                size={size}
+                name="ios-easel"
+              />
+            );
           },
         }}
         name="TeacherList"
@@ -50,8 +56,14 @@ const StudyTabs: React.FC = () => {
       <Screen
         options={{
           tabBarLabel: 'Proffys',
-          tabBarIcon: ({ color, size }) => {
-            return <Ionicons color={color} size={size} name="ios-heart" />;
+          tabBarIcon: ({ color, size, focused }) => {
+            return (
+              <Ionicons
+                color={focused ? '#8257e5' : color}
+                size={size}
+                name="ios-heart"
+              />
+            );
           },
         }}
         name="Favorites"
