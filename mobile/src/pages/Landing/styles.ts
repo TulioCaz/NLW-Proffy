@@ -7,10 +7,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 40,
   },
-  banner: {
-    width: '100%',
-    resizeMode: 'contain',
-  },
+
+  banner: { width: '100%', resizeMode: 'contain' },
+
   title: {
     color: '#fff',
     fontSize: 20,
@@ -18,14 +17,15 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     marginTop: 80,
   },
-  titleBold: {
-    fontFamily: 'Poppins_600SemiBold',
-  },
+
+  titleBold: { fontFamily: 'Poppins_600SemiBold' },
+
   buttonsContainer: {
     flexDirection: 'row',
     marginTop: 40,
     justifyContent: 'space-between',
   },
+
   button: {
     height: 150,
     width: '48%',
@@ -33,17 +33,13 @@ const styles = StyleSheet.create({
     padding: 24,
     justifyContent: 'space-between',
   },
-  buttonText: {
-    fontFamily: 'Archivo_700Bold',
-    color: '#fff',
-    fontSize: 20,
-  },
-  buttonPrimary: {
-    backgroundColor: '#9871f5',
-  },
-  buttonSecondary: {
-    backgroundColor: '#04d361',
-  },
+
+  buttonText: { fontFamily: 'Archivo_700Bold', color: '#fff', fontSize: 20 },
+
+  buttonPrimary: { backgroundColor: '#9871f5' },
+
+  buttonSecondary: { backgroundColor: '#04d361' },
+
   totalConnections: {
     fontFamily: 'Poppins_400Regular',
     color: '#d4c2ff',
@@ -52,9 +48,8 @@ const styles = StyleSheet.create({
     maxWidth: 140,
     marginTop: 40,
   },
-  heart: {
-    marginRight: 20,
-  },
+
+  heart: { marginRight: 20 },
 });
 
 export default styles;
