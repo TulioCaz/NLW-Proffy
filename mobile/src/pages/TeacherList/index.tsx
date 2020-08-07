@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React, { useState } from 'react';
 import { View, ScrollView, Text, TextInput } from 'react-native';
-import { BorderlessButton } from 'react-native-gesture-handler';
+import { BorderlessButton, RectButton } from 'react-native-gesture-handler';
 import { Feather } from '@expo/vector-icons';
 
 import styles from './styles';
@@ -52,6 +52,10 @@ const TeacherList: React.FC = () => {
                 />
               </View>
             </View>
+
+            <RectButton style={styles.submitButton}>
+              <Text style={styles.submitButtonText}>Filtrar</Text>
+            </RectButton>
           </View>
         )}
       </PageHeader>
