@@ -7,10 +7,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     padding: 40,
   },
-  content: {
-    flex: 1,
-    justifyContent: 'center',
-  },
+
+  content: { flex: 1, justifyContent: 'center' },
+
   title: {
     color: '#fff',
     fontSize: 32,
@@ -19,6 +18,7 @@ const styles = StyleSheet.create({
     maxWidth: 180,
     marginTop: 80,
   },
+
   description: {
     marginTop: 24,
     color: '#d4c2ff',
@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_400Regular',
     maxWidth: 240,
   },
+
   okButton: {
     marginVertical: 40,
     backgroundColor: '#04d361',
@@ -35,11 +36,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 8,
   },
-  okButtonText: {
-    fontFamily: 'Archivo_700Bold',
-    color: '#fff',
-    fontSize: 16,
-  },
+
+  okButtonText: { fontFamily: 'Archivo_700Bold', color: '#fff', fontSize: 16 },
 });
 
 export default styles;

@@ -10,11 +10,7 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
 
-  profile: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    padding: 24,
-  },
+  profile: { flexDirection: 'row', alignItems: 'center', padding: 24 },
 
   avatar: {
     width: 64,
@@ -23,9 +19,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#eee',
   },
 
-  profileInfo: {
-    marginLeft: 16,
-  },
+  profileInfo: { marginLeft: 16 },
 
   name: {
     fontFamily: 'Archivo_700Bold',
@@ -61,16 +55,9 @@ const styles = StyleSheet.create({
     fontSize: 14,
   },
 
-  priceValue: {
-    fontFamily: 'Archivo_700Bold',
-    color: '#8257e5',
-    fontSize: 16,
-  },
+  priceValue: { fontFamily: 'Archivo_700Bold', color: '#8257e5', fontSize: 16 },
 
-  buttonsContainer: {
-    flexDirection: 'row',
-    marginTop: 16,
-  },
+  buttonsContainer: { flexDirection: 'row', marginTop: 16 },
 
   favoriteButton: {
     backgroundColor: '#8257e5',
