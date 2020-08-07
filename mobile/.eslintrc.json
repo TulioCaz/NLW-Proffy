@@ -27,6 +27,7 @@
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "error",
+    "no-alert": "off",
     "react/style-prop-object": "off",
     "camelcase": "off",
     "react/jsx-one-expression-per-line": "off",
