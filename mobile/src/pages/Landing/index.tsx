@@ -23,11 +23,10 @@ const Landing: React.FC = () => {
       .then(response => {
         const { data: total } = response;
 
-        console.log(total);
-
         setTotalConnections(total);
       })
       .catch(err => {
+        // eslint-disable-next-line no-console
         console.log(err);
       });
   }, []);
