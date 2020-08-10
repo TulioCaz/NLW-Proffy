@@ -17,7 +17,7 @@ import styles from './styles';
 const TeacherList: React.FC = () => {
   const [isFiltersVisible, setIsFiltersVisible] = useState(false);
 
-  const [favorite, setFavorite] = useState<number[]>([]);
+  const [favorites, setFavorites] = useState<number[]>([]);
 
   const [teachers, setTeachers] = useState<ITeacher[]>([])
 
@@ -33,7 +33,7 @@ const TeacherList: React.FC = () => {
           return teacher.id;
         })
 
-        setFavorite(favoritedTeachersIds)
+        setFavorites(favoritedTeachersIds)
       }
     });
   }
@@ -116,7 +116,7 @@ const TeacherList: React.FC = () => {
             <TeacherItem
               key={teacher.id}
               teacher={teacher}
-              favorited={favorite.includes(teacher.id)}
+              favorited={favorites.includes(teacher.id)}
             />
           );
         })}
