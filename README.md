@@ -18,17 +18,18 @@ Proffy é uma plataforma online que conecta professores que oferecem aulas parti
 </br>
 </br>
 
-## :calling: Overview
+## :calling: Previews
 
- **Web**
+ **Web** -- [Overview](https://github.com/TulioCaz/NLW-Proffy/blob/master/web/README.md)
   <p align="center">
-    <img  src="">
+    <img alt="drawing" width="620"  src="https://github.com/TulioCaz/NLW-Proffy/blob/master/assets/Landing-Proffy.png">
+    <img alt="drawing" width="300" src="https://github.com/TulioCaz/NLW-Proffy/blob/master/assets/Landing-for-mobile.png">
   </p>
 
- **Mobile**
+ **Mobile** -- [Overview](https://github.com/TulioCaz/NLW-Proffy/blob/master/web/README.md)
 
   <p align="center">
-    <img  src="">
+    <img  src="https://github.com/TulioCaz/NLW-Proffy/blob/master/assets/Mobile-app_Landing.jpeg">
   </p>
 
 ---
