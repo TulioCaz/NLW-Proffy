@@ -18,18 +18,26 @@ Proffy é uma plataforma online que conecta professores que oferecem aulas parti
 </br>
 </br>
 
+
 ## :calling: Overview
 
- **Web**
-  <p align="center">
-    <img  src="">
-  </p>
+- Landing Page
+<p align="center">
+  <img  src="">
+  <img  src="">
+</p>
 
- **Mobile**
+- Give Classes Page
+<p align="center">
+  <img  src="">
+  <img  src="">
+</p>
 
-  <p align="center">
-    <img  src="">
-  </p>
+- List Classes Page
+<p align="center">
+  <img  src="">
+  <img  src="">
+</p>
 
 ---
 
