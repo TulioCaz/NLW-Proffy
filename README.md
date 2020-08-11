@@ -32,6 +32,12 @@ Proffy é uma plataforma online que conecta professores que oferecem aulas parti
     <img  src="https://github.com/TulioCaz/NLW-Proffy/blob/master/assets/Mobile-app_Landing.jpeg">
   </p>
 
+
+
+## :keyboard: Como executar o projeto
+
+
+
 ---
 
 ## :book:  **TulioCaz**
