@@ -36,7 +36,45 @@ Proffy é uma plataforma online que conecta professores que oferecem aulas parti
 
 ## :keyboard: Como executar o projeto
 
+```
+# - De um git clone no projeto.
 
+# - Dentro de cada uma das pastas utilize o comando um dos comandos para instalar as dependências
+
+  npm install
+    ou
+  yarn install
+
+# - Acesse o diretório ( /server ) e rode as migrations.
+
+  npm knex:migrate
+    ou
+  yarn knex:migrate
+
+# - Ainda dentro do diretório server, abra um terminal próprio e inicie o servidor com o comando
+
+  npm start
+    ou
+  yarn start
+
+## Web application
+
+# - Agora para testar a aplicação web, dentro do diretório ( /web ) inicie a aplicação em um terminal próprio com o comando.
+
+  npm start
+    ou
+  yarn start
+
+## Mobile application
+
+# - Agora para testar a aplicação mobile, dentro do diretório ( /mobile ) inicie a aplicação em um terminal próprio com o comando.
+
+  npm start
+    ou
+  yarn start
+
+# Para testar a aplicação mobile você precisara de um celular com o aplicativo do expo instalado, basta escanear o QR code com a aplicação no celular e pronto.
+```
 
 ---
 
